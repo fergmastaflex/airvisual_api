@@ -6,6 +6,12 @@ module AirVisualApi
     # some of the key names. I can't stand abbreviation
     # and jargon.
 
+    # Have to actually set the IP or we'll get the
+    # server's IP as a result.
+    def nearest_city_by_ip(ip:)
+      client.get(url: '/nearest_city', headers: { 'x-forwarded-for' => ip })
+    end
+
     def nearest_city_by_gps(latitude:, longitude:)
       # coercing to float to ensure proper formatting
       # this should probably be a little smarter with some
