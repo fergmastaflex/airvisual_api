@@ -1,6 +1,6 @@
-RSpec.describe AirvisualApi do
+RSpec.describe AirVisualApi do
   it "has a version number" do
-    expect(AirvisualApi::VERSION).not_to be nil
+    expect(AirVisualApi::VERSION).not_to be nil
   end
 
   it "does something useful" do

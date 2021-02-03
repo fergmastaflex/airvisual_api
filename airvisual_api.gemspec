@@ -2,7 +2,7 @@ require_relative 'lib/airvisual_api/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "airvisual_api"
-  spec.version       = AirvisualApi::VERSION
+  spec.version       = AirVisualApi::VERSION
   spec.authors       = ["Joey Ferguson"]
   spec.email         = ["fergmastaflex@gmail.com"]
 
