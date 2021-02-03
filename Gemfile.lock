@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    airvisual_api (0.1.0)
+    airvisual_api (0.1.1)
       httparty
 
 GEM
