@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Find nearest city by IP!
+```ruby
+AirvisualApi::City.new.nearest_city_by_ip(ip: '127.0.0.1')
+```
 
 ## Development
 
